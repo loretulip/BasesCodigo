@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio2_7 : MonoBehaviour
+public class Ejercicio3_3 : MonoBehaviour
 {
-    int oroPorSegundo = 7;
-
-    int resultado;
+    [SerializeField] int numero;
+    int doble, triple;
 
     // Start is called before the first frame update
     void Start()
     {
-        resultado = 4 * 60 * 60 * 7;
-        Debug.Log("Oro conseguido en 4h: " + resultado);
+        doble = numero * 2;
+        triple = numero * 3;
+        Debug.Log(doble);
+        Debug.Log(triple);
     }
 
     // Update is called once per frame
