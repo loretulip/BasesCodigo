@@ -9,6 +9,8 @@ public class Ejercicio4_1 : MonoBehaviour
     void Start()
     {
         Circulo(2);
+        Triangulo(4.4f)
+        Cuadrado(39);
     }
 
     // Update is called once per frame
@@ -21,5 +23,15 @@ public class Ejercicio4_1 : MonoBehaviour
     {
         areaC = radio * radio * 3.14f;
         return areaC;
+    }
+    void Triangulo(float base, float altura)
+    {
+        areaT = (base * altura) / 2;
+        return areaT;
+    }
+    void Cuadrado(float lado)
+    {
+        areaCu= lado*2
+        return areaCu;
     }
 }
