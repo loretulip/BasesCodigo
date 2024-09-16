@@ -17,5 +17,6 @@ public class Ejercicio1_1 : MonoBehaviour
     void Update()
     {
         Debug.Log("Ha pasado un frame"); //Este mensaje aparece constantemente porque la función Update se actualiza en cada frame mientras que el Start solo al inicio
+
     }
 }

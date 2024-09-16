@@ -13,6 +13,7 @@ public class Ejercicio2_5 : MonoBehaviour
     int vidaFinalPlayer2;
     int vidaFinalPlayer3;
     int vidaFinalPlayer4;
+
     
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,12 @@ public class Ejercicio2_5 : MonoBehaviour
 
         vidasPlayer4 = vidasPlayer2;
         vidaFinalPlayer4 = vidasPlayer4;
+
+        Debug.Log(vidaFinalPlayer1);
+        Debug.Log(vidaFinalPlayer2);
+        Debug.Log(vidaFinalPlayer3);
+        Debug.Log(vidaFinalPlayer4);
+
 
     }
 

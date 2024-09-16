@@ -14,8 +14,10 @@ public class Ejercicio2_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Puntuación 1: " + puntuacion1);
+        Debug.Log("Puntuación 2: " + puntuacion2);
+        Debug.Log("Puntuación 3: " + puntuacion3);
         sumaPuntuaciones = puntuacion1 + puntuacion2 + puntuacion3;
-        Debug.Log("Suma puntuaciones: " + sumaPuntuaciones);
         mediaPuntuaciones = sumaPuntuaciones / 3;
         Debug.Log("Media puntuaciones: " + mediaPuntuaciones);
     }

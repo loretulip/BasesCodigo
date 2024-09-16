@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio2_3 : MonoBehaviour
 {
-    int vidas = 10;
+    float vidas = 10;
     float exp = 3.3f;
 
     float calculo1;
@@ -19,8 +19,8 @@ public class Ejercicio2_3 : MonoBehaviour
         calculo1 = vidas * exp;
         calculo2 = vidas / exp;
         calculo3 = vidas % exp;
-        calculo3 = vidas * 2;
-        calculo3 = exp * 3;
+        calculo4 = vidas * 2;
+        calculo5 = exp * 3;
 
         Debug.Log(calculo1);
         Debug.Log(calculo2);

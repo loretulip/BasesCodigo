@@ -7,8 +7,8 @@ public class Ejercicio4_2: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string salidaNombre = ConstruirNombre;
-        Debug.Log("La persona se llama " + ConstruirNombre);
+        string salidaNombre = ConstruirNombre("Pepe","Ramírez","Fernández",89);
+        Debug.Log("La persona se llama " + salidaNombre);
     }
 
     // Update is called once per frame
@@ -18,11 +18,7 @@ public class Ejercicio4_2: MonoBehaviour
     }
 
     string ConstruirNombre(string nombre, string apellido1, string apellido2, int edad)
-    {
-        nombre = "Pepe";
-        apellido1 = "Ramirez";
-        apellido2 = "Fernández";
-        edad = 67;
+    {    
         string infoPersona = nombre + " " + apellido1 + " " + apellido2 + " " + edad;
         return infoPersona; 
     }

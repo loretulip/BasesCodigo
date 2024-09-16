@@ -10,7 +10,7 @@ public class Ejercicio3_4 : MonoBehaviour
     void Start()
     {
         lvl = 32 + (9 * exp / 5);
-        Debug.Log(lvl);
+        Debug.Log("nivel: " + lvl);
     }
 
     // Update is called once per frame

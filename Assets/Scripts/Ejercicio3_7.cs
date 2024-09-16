@@ -10,7 +10,7 @@ public class Ejercicio3_7 : MonoBehaviour
     void Start()
     {
         area = b * h * 2;
-        Debug.Log(area);
+        Debug.Log("Área: " + area);
     }
 
     // Update is called once per frame

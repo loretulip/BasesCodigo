@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Ejercicio2_8 : MonoBehaviour
 {
-    float vida = 120;
+    float vidaTotal = 120;
+    float vidaActual = 120;
 
     int ronda = 0;
     int dano = 3;
@@ -12,11 +13,11 @@ public class Ejercicio2_8 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while (ronda <= 5)
+        while (ronda <= 4)
         {
-            vida = vida - vida * 0.3f + ronda * dano;
-            Debug.Log("Vida: " + vida);
             ronda++;
+            vidaActual -=  vidaTotal * 0.03f;
+            Debug.Log("Ronda: " + ronda + " | Vida: " + vidaActual);
         }
 
     }

@@ -17,7 +17,6 @@ public class Ejercicio2_2 : MonoBehaviour
     {
         Debug.Log(vidas);
         Debug.Log(exp);
-        Debug.Log(carac);
         resultadoSuma = vidas + exp;
         resultadoResta = exp - vidas;
         Debug.Log(resultadoSuma);
