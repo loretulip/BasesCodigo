@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_1 : MonoBehaviour
+public class Ejercicio5_5 : MonoBehaviour
 {
-    [SerializeField] int vida1, vida2;
+    [SerializeField] int vida;
     // Start is called before the first frame update
     void Start()
     {
-        if (vida1 == vida2)
+        if (vida%2==0)
         {
-            Debug.Log("La batalla está reñida");
+            Debug.Log("Es par");
         }
-        
+        else
+        {
+            Debug.Log("Es imapar");
+        }
     }
 
     // Update is called once per frame

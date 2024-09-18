@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_1 : MonoBehaviour
+public class Ejercicio5_3 : MonoBehaviour
 {
-    [SerializeField] int vida1, vida2;
+    [SerializeField] int num;
     // Start is called before the first frame update
     void Start()
     {
-        if (vida1 == vida2)
+        if (num >=0 && num<=9)
         {
-            Debug.Log("La batalla está reñida");
+            Debug.Log("Está entre el 0 y el 9");
         }
-        
     }
 
     // Update is called once per frame

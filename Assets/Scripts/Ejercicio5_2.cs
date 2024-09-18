@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Ejercicio5_1 : MonoBehaviour
+public class Ejercicio5_2 : MonoBehaviour
 {
-    [SerializeField] int vida1, vida2;
+    [SerializeField] int num1,num2;
     // Start is called before the first frame update
     void Start()
     {
-        if (vida1 == vida2)
+        if (num1<3 && num2<3)
         {
-            Debug.Log("La batalla está reñida");
+            Debug.Log(num1 + " y " + num2 + " son menores a 3");
         }
-        
     }
 
     // Update is called once per frame

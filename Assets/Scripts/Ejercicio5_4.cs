@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_1 : MonoBehaviour
+public class Ejercicio5_4 : MonoBehaviour
 {
-    [SerializeField] int vida1, vida2;
+    [SerializeField] int num1, num2;
+    float divisor,resultado;
     // Start is called before the first frame update
     void Start()
     {
-        if (vida1 == vida2)
+        divisor = num1 % num2;
+        if(divisor!=0)
         {
-            Debug.Log("La batalla está reñida");
+            resultado = num1 / num2;
+            Debug.Log("El resultado es " + resultado);
         }
-        
     }
 
     // Update is called once per frame
