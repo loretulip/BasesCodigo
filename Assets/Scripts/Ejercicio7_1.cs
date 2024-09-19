@@ -2,19 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio5_5 : MonoBehaviour
+public class Ejercicio7_1 : MonoBehaviour
 {
-    [SerializeField] int vida;
+    int contar=0;
     // Start is called before the first frame update
     void Start()
     {
-        if (vida%2==0)
+        while (contar<100)
         {
-            Debug.Log("Es par");
-        }
-        else
-        {
-            Debug.Log("Es impar");
+            contar++;
+            Debug.Log(contar);            
         }
     }
 

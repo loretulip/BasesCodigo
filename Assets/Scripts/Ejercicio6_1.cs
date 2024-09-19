@@ -9,5 +9,5 @@ public class Ejercicio6_1 : MonoBehaviour
     // c) false
     // d) true
     // e) true
-    // f) 
+    // f) true
 }
